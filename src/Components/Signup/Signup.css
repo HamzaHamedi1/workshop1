@@ -1,0 +1,92 @@
+#Signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background: url(/public/neil-mark-thomas-GqtxK5-dF0o-unsplash.jpg);
+  background-size: cover;
+  padding-top: 100px;
+}
+
+#Signup-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 60px 40px;
+  box-shadow: 0px 0px 9px 1px rgba(22, 10, 128, 0.48);
+}
+
+h2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: large;
+  color: white;
+}
+
+.signup-input {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.signup-social button {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-facebook {
+  position: absolute;
+  color: #3b5998;
+  left: 30%;
+}
+
+.signup-google {
+  position: absolute;
+  left :30%;
+  color: #db4a39;
+
+}
+
+.signup-icon {
+  font-size: 24px;
+}
+
+.signup-input input[type="text"],
+.signup-input input[type="email"],
+.signup-input input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #999999;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+  width: 100%;
+  color: white;
+}
+
+#submit-button {
+  color: #ffffff !important;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 12px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  width: 100%;
+  background: linear-gradient(to right, #3866A3, #3f38a3);
+  cursor: pointer;
+}
+
+#submit-button:hover {
+ 
+  color: #14396A !important;
+  background: #ffffff;
+}

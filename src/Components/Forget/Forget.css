@@ -1,0 +1,56 @@
+#ForgetPassword {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  #ForgetPassword-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 60px 40px;
+    box-shadow: 0px 0px 9px 1px rgba(22, 10, 128, 0.48);
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .forget-input {
+    margin-bottom: 20px;
+  }
+  
+  .forget-input input[type="email"] {
+    border: none;
+    border-bottom: 2px solid #999999;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px;
+    width: 100%;
+  }
+  
+  #submit-button {
+    color: #ffffff;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px #7cacde;
+    box-shadow: 1px 1px 1px #bee2f9;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #3866a3;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    color: #14396a;
+    background: #ffffff;
+  }
+  

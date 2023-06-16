@@ -1,0 +1,106 @@
+#Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background: url(/public/neil-mark-thomas-GqtxK5-dF0o-unsplash.jpg);
+  background-size: cover;
+  padding-top: 100px;
+}
+
+#Login-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 100px 30px 40px   ;
+  box-shadow: 0px 0px 9px 1px rgba(22, 10, 128, 0.48);
+}
+
+h2 {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #14396A;
+}
+
+h4,
+span {
+  color: #14396A;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.Login-input input[type="email"],
+.Login-input input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #999999;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+  width: 100%;
+  color: white;
+}
+
+.email-icon,
+.password-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+#login-button {
+  color: #ffffff !important;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 12px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  width: 100%;
+  background: linear-gradient(to right, #3866A3, #3f38a3);
+  cursor: pointer;
+}
+
+#login-button:hover {
+  color: #14396A !important;
+  background: #ffffff;
+}
+
+#ele1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+#check{
+  color: #14396A;
+  font-size: medium;
+}
+#forget {
+  color: white;
+  font-size: medium;
+}
+
+.nav-link {
+  margin-left: 5px;
+  color: #141d6a;
+  text-decoration: none;
+}
+h4{
+  color : #14396A
+}
+.nav-link:hover {
+  text-decoration: underline;
+}

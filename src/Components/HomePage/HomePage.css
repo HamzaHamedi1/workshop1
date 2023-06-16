@@ -1,0 +1,26 @@
+.todo-list-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .todo-form input[type="text"] {
+    padding: 8px;
+    margin-right: 5px;
+  }
+  .todo-item {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 3px rgba(48, 9, 128, 0.54);
+  }
+  
+  .todo-item button {
+    margin-top: auto;
+  }
+    
